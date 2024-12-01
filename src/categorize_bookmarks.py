@@ -53,7 +53,7 @@ def categorize_bookmarks(organize_all: bool = False):
 
     max_categories = config.get('max_categories', 20)
     protected_folders = config.get('Protected Folders', [])
-    llm_type = config.get('llm_type', 'openai')
+    llm_type = config.get('llm_type', ['openai','ollama'])
     batch_size = config.get('batch_size', 10)
 
     logger.info(f"Using LLM type: {llm_type}")

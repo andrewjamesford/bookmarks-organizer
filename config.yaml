@@ -1,4 +1,5 @@
-llm_type: openai
+# llm_type: openai
+llm_type: ollama
 max_categories: 20
 batch_size: 10
 Protected Folders:
